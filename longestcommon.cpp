@@ -2,24 +2,20 @@
 using namespace std;
 #define lli long long int
 #define MOD 1000000007
-enum dir { up = 1 , lleft = 2 , diag = 3} ; 
 
 void CowboyBebop(){
     string s1, s2 ; 
     cin >> s1 >> s2 ; 
     int m = s1.length() ; 
     int n = s2.length() ;
-
     int c[m+1][n+1] ;
     int d[m+1][n+1] ;
-
     for(int i = 0 ; i < m +1  ; i++){
         for(int j = 0 ; j < n+1  ; j++){
             c[i][j] = 0 ; 
             d[i][j] = 0 ; 
         }
     } 
-    
     for (int i = 0; i <= m; i++){  
         for (int j = 0; j <= n; j++){  
         if (i == 0 || j == 0){  
@@ -37,9 +33,7 @@ void CowboyBebop(){
             }  
         } 
     }
-    
     string s ;
-
     int i = m , j = n ;  
     while (c[i][j]){
         if(d[i][j] == 3 ){
@@ -56,9 +50,7 @@ void CowboyBebop(){
         }
     }
     reverse(s.begin(),s.end());
-    cout<<s<<endl;
-
-    
+    cout<<s<<endl;  
 }
 
 using namespace std;
