@@ -5,13 +5,13 @@ using namespace std;
 
 int findsmallest(int a[],int n){
     int small = 0 ; 
-    for (int i = 0; i < n; i++){
-        if(a[1] > a[i]){
+    for (int i = 1; i < n; i++){
+        if(a[0] > a[i]){
             small = i ; 
             break ;  
         }    
     }
-    return small;  
+    return small ;  
 }
 
 void CowboyBebop(){
@@ -31,8 +31,8 @@ int main(void){
     freopen("input.txt","r",stdin);
     freopen("output.txt","w",stdout);
 
-    int t ;
-    cin >> t;
+    int t = 1  ;
+    // cin >> t;
 
     while(t--){
         CowboyBebop();
