@@ -54,9 +54,12 @@ Questions
 * Merge sort of linked list
   * solution :  [mergesort.cpp](https://github.com/LearningMonkey61/DAA/blob/master/mergesort.cpp)
 * Quicksort
+  * solution : [quicksort.cpp](https://github.com/LearningMonkey61/DAA/blob/master/quicksort.cpp)
 * Towers of Hanoi
+  * solution : [towerofhanoi.cpp](https://github.com/LearningMonkey61/DAA/blob/master/towerofhanoi.cpp)
 * K-th largest element in unsorted array
 * Search an element in a 2D array with efficiency
+  * solution : [2darraysearch.cpp](https://github.com/LearningMonkey61/DAA/blob/master/2darraysearch.cpp)
 * Beautiful Array
   * For some fixed N, an array A is beautiful if it is a permutation of the integers 1, 2, ..., N, such that: For every i < j, there is no k with i < k < j such that A[k]* 2 = A[i] + A[j].
   * Given N, return any beautiful array A.  (It is guaranteed that one exists.)
