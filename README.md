@@ -13,7 +13,7 @@ Questions
 
 * Square Root of a Number
   * Given an integer x, find square root of it. If x is not a perfect square, then return floor(√x).
-  * solution : [sqrntnum.cpp](https://github.com/LearningMonkey61/DAA/blob/master/sqrntnum.cpp)
+  * solution : [sqrntnum.cpp](https://github.com/LearningMonkey61/DAA/blob/master/sqrtnum.cpp)
 * Missing Number in Arithmetic Progression
   * Given an array that represents elements of arithmetic progression in order, one element is missing in the progression, which you need to find.
   * solution : [apcompletion.cpp](https://github.com/LearningMonkey61/DAA/blob/master/apcompletion.cpp)
@@ -67,3 +67,11 @@ Questions
 * Implement Strassen’s algorithm
 * Perform heapsort for the given data
 * Find greatest common divisor of two numbers using Divide and Conquer approach
+
+# Lab #4
+
+#### 13-02-2020
+
+Questions
+
+*

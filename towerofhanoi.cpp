@@ -15,12 +15,14 @@ void towerOfHanoi(int n, char s, char d, char a){
 
 void CowboyBebop(){
     int n ; 
-    cin >> n ; 
-    auto start = chrono::high_resolution_clock::now();
-    towerOfHanoi(n,'A','C','B');
+    cin >> n ;
+
+    auto start =chrono::high_resolution_clock::now();
+    towerOfHanoi(n,'A','B','C');
     auto stop = chrono::high_resolution_clock::now();
     auto duration = chrono::duration_cast<chrono::microseconds>(stop - start);
     cout << duration.count() << " μs" <<  endl;
+
 }
 
 using namespace std;
