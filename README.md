@@ -66,7 +66,16 @@ Questions
 * Given a set of points, find the closest pair (having shortest distance between them)
 * Implement Strassen’s algorithm
 * Perform heapsort for the given data
+  * solution : [heapsort.cpp](https://github.com/LearningMonkey61/DAA/blob/master/heapsort.cpp)
 * Find greatest common divisor of two numbers using Divide and Conquer approach
+  * trivial : use euclid's algorithim.
+
+  * ```cpp
+    int gcd(int a, int b){
+      if (a == 0) return b;
+      return gcd(b % a, a);
+    }
+      ```
 
 # Lab #4
 
