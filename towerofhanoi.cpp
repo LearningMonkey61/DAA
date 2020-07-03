@@ -22,7 +22,6 @@ void CowboyBebop(){
     auto stop = chrono::high_resolution_clock::now();
     auto duration = chrono::duration_cast<chrono::microseconds>(stop - start);
     cout << duration.count() << " μs" <<  endl;
-
 }
 
 using namespace std;

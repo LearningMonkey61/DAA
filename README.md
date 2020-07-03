@@ -11,8 +11,7 @@
 
 Questions
 
-* Square Root of a Number
-  * Given an integer x, find square root of it. If x is not a perfect square, then return floor(√x).
+
   * solution : [sqrntnum.cpp](https://github.com/LearningMonkey61/DAA/blob/master/sqrtnum.cpp)
 * Missing Number in Arithmetic Progression
   * Given an array that represents elements of arithmetic progression in order, one element is missing in the progression, which you need to find.
@@ -91,3 +90,38 @@ Questions
 * Find the maximum element in an array which is first increasing and then decreasing
 * Binary Search on Singly Linked List
 * Given three numbers x, y, and p, find the modular exponent (x^y)%p
+
+# Lab #5
+
+#### 12-03-2020
+
+Questions
+
+* Longest Common Subsequence
+    LCS Problem Statement: Given two sequences, find the length of longest subsequence present in both of them. A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous. For example, “abc”, “abg”, “bdf”, “aeg”, ‘”acefg”, .. etc are subsequences of “abcdefg”.
+
+*	Matrix Chain Multiplication
+    Given an array p[] which represents the chain of matrices such that the ith matrix Ai is of dimension p[i-1] x p[i]. We need to write a function MatrixChainOrder() that should return the minimum number of multiplications needed to multiply the chain.
+
+*	Zero-One Knapsack
+    Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. In other words, given two integer arrays val[0..n-1] and wt[0..n-1] which represent values and weights associated with n items respectively. Also given an integer W which represents knapsack capacity, find out the maximum value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. You cannot break an item, either pick the complete item, or don’t pick it (0-1 property).
+
+* Binomial Coefficient
+    Write a function that takes two parameters n and k and returns the value of Binomial Coefficient C(n, k). For example, your function should return 6 for n = 4 and k = 2, and it should return 10 for n = 5 and k = 2.
+
+*	Coin change dispenser
+    Given a value N, if we want to make change for N cents, and we have infinite supply of each of S = { S1, S2, .. , Sm} valued coins, how many ways can we make the change? The order of coins doesn’t matter.
+    For example, for N = 4 and S = {1,2,3}, there are four solutions: {1,1,1,1},{1,1,2},{2,2},{1,3}. So output should be 4. For N = 10 and S = {2, 5, 3, 6}, there are five solutions: {2,2,2,2,2}, {2,2,3,3}, {2,2,6}, {2,3,5} and {5,5}. So the output should be 5.
+
+*	Assembly Line Scheduling
+    A car factory has two assembly lines, each with n stations. A station is denoted by Si,j where i is either 1 or 2 and indicates the assembly line the station is on, and j indicates the number of the station. The time taken per station is denoted by ai,j. Each station is dedicated to some sort of work like engine fitting, body fitting, painting and so on. So, a car chassis must pass through each of the n stations in order before exiting the factory. The parallel stations of the two assembly lines perform the same task. After it passes through station Si,j, it will continue to station Si,j+1 unless it decides to transfer to the other line. Continuing on the same line incurs no extra cost, but transferring from line i at station j – 1 to station j on the other line takes time ti,j. Each assembly line takes an entry time ei and exit time xi which may be different for the two lines. Give an algorithm for computing the minimum time it will take to build a car chassis.
+
+Greedy Approach
+
+* Fractional Knapsack
+    * Given weights and values of n items, we need to put these items in a knapsack of capacity W to get the maximum total    value in the knapsack.
+    * In the 0-1 Knapsack problem, we are not allowed to break items. We either take the whole item or don’t take it.
+    In Fractional Knapsack, we can break items for maximizing the total value of knapsack. This problem in which we can     break an item is also called the fractional knapsack problem.
+
+* Egyptian Fraction
+    *Every positive fraction can be represented as sum of unique unit fractions. A fraction is unit fraction if numerator is 1 and denominator is a positive integer, for example 1/3 is a unit fraction. Such a representation is called Egyptian Fraction as it was used by ancient Egyptians.
